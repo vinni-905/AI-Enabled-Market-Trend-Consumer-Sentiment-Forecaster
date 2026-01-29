@@ -1,0 +1,7 @@
+env/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Optional: Ignore very large data files if they are over 100MB
+# final data/
