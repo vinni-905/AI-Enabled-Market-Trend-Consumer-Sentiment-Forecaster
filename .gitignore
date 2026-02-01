@@ -4,4 +4,11 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 # Optional: Ignore very large data files if they are over 100MB
-# final data/
+
+
+# Ignore large raw data files to keep the repo clean
+*.csv
+*.xlsx
+*.zip
+# If you want to keep the final output, comment the lines above 
+# and only include the ones you really need.
