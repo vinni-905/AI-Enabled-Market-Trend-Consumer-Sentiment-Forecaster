@@ -484,7 +484,7 @@ if __name__ == "__main__":
                             messages=[{"role": "user", "content": prompt}],
                             temperature=0.2
                         )
-                        st.success("Insight Generated (Groq Fallback)")
+                        #st.success("Insight Generated (Groq Fallback)")
                         st.markdown(f'<div class="groq-chat-bubble"><b>Report:</b><br><br>{groq_res.choices[0].message.content}</div>', unsafe_allow_html=True)
                         st.snow()
                     except Exception as e2:
